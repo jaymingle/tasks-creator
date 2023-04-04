@@ -1,4 +1,4 @@
-import {React, useState} from 'react'
+import { React, useState } from 'react';
 import Expenses from './components/Expenses/Expenses';
 import NewExpense from './components/NewExpense/NewExpense';
 
@@ -25,15 +25,13 @@ const DUMMY_EXPENSES = [
 ];
 
 function App() {
-  const [expenses, setExpenses] = useState(DUMMY_EXPENSES)
-  
- 
-  const presentedDataHandler = (fromNewExpenseData) => {
-   // setExpenses([fromNewExpenseData, ...expenses])
-   setExpenses(prevExpenses => {
-    return [fromNewExpenseData, ...prevExpenses]
-   })
+  const [expenses, setExpenses] = useState(DUMMY_EXPENSES);
 
+  const presentedDataHandler = (fromNewExpenseData) => {
+    // setExpenses([fromNewExpenseData, ...expenses])
+    setExpenses((prevExpenses) => {
+      return [fromNewExpenseData, ...prevExpenses];
+    });
   };
 
   return (
