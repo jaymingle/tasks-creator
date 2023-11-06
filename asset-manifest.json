@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tasks-creator/static/css/main.a4d3df61.css",
+    "main.js": "/tasks-creator/static/js/main.4eb6eb8e.js",
+    "index.html": "/tasks-creator/index.html",
+    "main.a4d3df61.css.map": "/tasks-creator/static/css/main.a4d3df61.css.map",
+    "main.4eb6eb8e.js.map": "/tasks-creator/static/js/main.4eb6eb8e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4d3df61.css",
+    "static/js/main.4eb6eb8e.js"
+  ]
+}
